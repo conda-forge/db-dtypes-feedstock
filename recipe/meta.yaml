@@ -1,5 +1,5 @@
 {% set name = "db-dtypes" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/db-dtypes-{{ version }}.tar.gz
-  sha256: 26abca1c6691b31849b523fe017b657638eafc7442fd502ef80716126c48c083
+  sha256: c23fcfa007629ebaf9131e0cc5e8c91f6befb8b22f1ef2dccd1297f2753737fa
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - numpy >=1.16.6,<2.0dev
     - packaging >=17.0
     - pandas >=0.24.2,<2.0dev
-    - pyarrow >=3.0.0,<7.0dev
+    - pyarrow >=3.0.0,<8.0dev
     - python >=3.6,<3.11
 
 test:
