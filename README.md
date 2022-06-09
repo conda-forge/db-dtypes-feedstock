@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@tswast](https://github.com/tswast/)
+* [@xylar](https://github.com/xylar/)
 
