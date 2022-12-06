@@ -1,7 +1,6 @@
 {% set name = "db-dtypes" %}
 {% set version = "1.0.5" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -17,14 +16,14 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.7,<3.11
+    - pip
   run:
-    - numpy >=1.16.6,<2.0dev
+    - python >=3.7,<3.11
     - packaging >=17.0
     - pandas >=0.24.2,<2.0dev
-    - pyarrow >=3.0.0,<10.0dev
-    - python >=3.7,<3.11
+    - pyarrow >=3.0.0
+    - numpy >=1.16.6,<2.0dev
 
 test:
   imports:
