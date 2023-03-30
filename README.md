@@ -1,11 +1,11 @@
-About db-dtypes
-===============
+About db-dtypes-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/db-dtypes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-db-dtypes-pandas
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/db-dtypes-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pandas Data Types for SQL systems (BigQuery, Spanner)
 
