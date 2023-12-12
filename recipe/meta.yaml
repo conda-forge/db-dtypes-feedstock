@@ -1,5 +1,5 @@
 {% set name = "db-dtypes" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/db-dtypes-{{ version }}.tar.gz
-  sha256: ab485c85fef2454f3182427def0b0a3ab179b2871542787d33ba519d62078883
+  sha256: 3531bb1fb8b5fbab33121fe243ccc2ade16ab2524f4c113b05cc702a1908e6ea
 
 build:
   number: 0
