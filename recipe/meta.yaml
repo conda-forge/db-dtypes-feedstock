@@ -24,7 +24,8 @@ requirements:
     - packaging >=24.2.0
     - pandas >=1.5.3
     - pyarrow >=13.0.0
-    - numpy >=1.24.0
+    # use more restrictive bounds for py 3.10 to stay noarch: python
+    - numpy >=1.24.0,<=2.2.6
 
 test:
   imports:
