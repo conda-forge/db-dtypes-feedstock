@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: db-dtypes
-  version: 1.7.1
+  version: 1.7.2
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 75adf3bdf3174a6474ea4162d9a345ea0b3102ec4fd603e69ec26b6e8a99145a
+  sha256: 0fb8794a29adb3d4e56c4347eecf9711ad35d847b6fb3d32e2c5a4de021f5afc
 
 build:
   number: 0
@@ -27,8 +27,6 @@ requirements:
     - packaging >=24.2.0
     - pandas >=1.5.3,<4.0.0
     - pyarrow >=13.0.0
-    # use more restrictive bounds for py 3.10 to stay noarch: python
-    - numpy >=1.24.0,<=2.2.6
 tests:
   - python:
       imports:
