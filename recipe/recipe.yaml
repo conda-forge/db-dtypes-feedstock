@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: db-dtypes
-  version: "1.8.0"
+  version: "1.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: dee3e8075687bcfc8f5ae247257c267b4264bc7f4b26b0b1978baade1bbf4001
+  sha256: 52bbe6131b9920ead9e5e8def8f9ab6c3a6c05076d4947ff7e18101ef04f1fdc
 
 build:
   number: 0
